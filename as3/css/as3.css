@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font: 400 15px;
+    line-height: 1.8;
+    color: #818181;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background-image: url(/as3/assets/cover.png);
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: -15% 15%;
+    margin-bottom: 0px;
+    padding: 200px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#home {
+    padding: auto;
+}
+
+#ref {
+    background-color: rgba(0, 0, 0, 0.05);
+}
